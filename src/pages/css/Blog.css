@@ -1,0 +1,46 @@
+.pog {
+  max-width: 90%;
+  margin: auto;
+}
+.blog {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.postImg {
+  width: 400px;
+  height: 250px;
+}
+.para {
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+.post a {
+  color: black;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+.post p {
+  color: var(--suporting-color);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+@media screen and (max-width: 960px) {
+  .pog {
+    max-width: 100%;
+    margin: auto;
+  }
+  .blog {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .postImg {
+    max-width: 320px;
+    margin: auto;
+    height: 200px;
+    margin-top: 40px;
+  }
+}
